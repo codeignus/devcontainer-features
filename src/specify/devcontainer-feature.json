@@ -1,0 +1,17 @@
+{
+    "name": "🌱 Github's Spec Kit",
+    "id": "specify",
+    "version": "1.0.0",
+    "description": "Installs the Specify cli tool from github's spec-kit repo. See: https://github.com/github/spec-kit",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Select the Spec Kit Templates version to install"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/devcontainers-extra/features/uv": {},
+        "ghcr.io/devcontainers/features/git": {}
+    }
+}
